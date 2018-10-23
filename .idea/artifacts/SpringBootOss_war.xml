@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbootoss:war">
+    <output-path>$PROJECT_DIR$/SpringBootOss/target</output-path>
+    <root id="archive" name="springbootoss-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springbootoss:war exploded" />
+    </root>
+  </artifact>
+</component>

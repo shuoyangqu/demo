@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /
+spring:
+ jpa:
+      database-platform: org.hibernate.dialect.MySQL5Dialect
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+ datasource:
+   driver-class-name: com.mysql.jdbc.Driver
+   url: jdbc:mysql://localhost:3306/people_basic_attribute?useSSL=true&characterEncoding=UTF8
+   username: root
+   password: 123456
